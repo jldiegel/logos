@@ -1,0 +1,192 @@
+#mainhead {
+  background-color: white;
+  font-family: 'Baloo Da', cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+body  {
+  width: 100%;
+  margin: 0;
+}
+
+h2  {
+  padding-left: 18px;
+}
+
+.links  {
+  padding-right: 15px;
+  padding-top: 6px;
+}
+
+a {
+  padding-left: 12px;
+  text-decoration: none;
+}
+
+
+//images
+
+@mixin logobox ($width, $height, $image, $bgpos, $margin){
+
+  width: $width;
+  height: $height;
+  background: url($image);
+  background-position: $bgpos;
+  margin: $margin;
+}
+
+.coke {
+  @include logobox(300px, 300px, "../images/coke.svg", center top, 0 auto)
+}
+
+.chanel {
+  @include logobox(300px, 300px, "../images/chanel.svg", center top, 0 auto)
+}
+
+.nike {
+  @include logobox(300px, 300px, "../images/nike.svg", center top, 0 auto)
+}
+
+.mtv  {
+  @include logobox(300px, 300px, "../images/mtv.svg", center top, 0 auto)
+}
+
+.newbalance {
+  @include logobox(300px, 300px, "../images/newbalance.svg", center top, 0 auto)
+}
+
+.astonmartin  {
+  @include logobox(300px, 300px, "../images/astonmartin.svg", center top, 0 auto)
+}
+
+.heinz  {
+  @include logobox(300px, 300px, "../images/heinz.svg", center top, 0 auto)
+}
+
+.lacoste  {
+  @include logobox(300px, 300px, "../images/lacoste.svg", center top, 0 auto)
+}
+
+.bo {
+  @include logobox(300px, 300px, "../images/bo.svg", center top, 0 auto)
+}
+
+.disney {
+  @include logobox(300px, 300px, "../images/disney.svg", center top, 0 auto)
+}
+
+.levis  {
+  @include logobox(300px, 300px, "../images/levis.svg", center top, 0 auto)
+}
+
+.guinness {
+  @include logobox(300px, 300px, "../images/guinness.svg", center top, 0 auto)
+}
+
+.swiss  {
+  @include logobox(300px, 300px, "../images/swiss.svg", center top, 0 auto)
+}
+
+.kodak  {
+  @include logobox(300px, 300px, "../images/kodak.svg", center top, 0 auto)
+}
+
+.wb {
+  @include logobox(300px, 300px, "../images/wb.svg", center top, 0 auto)
+}
+
+.heineken {
+  @include logobox(300px, 300px, "../images/heineken.svg", center top, 0 auto)
+}
+
+//box backgrounds
+
+.box1 {
+  background-color: #F24E3C;
+}
+
+
+.box2 {
+  background-color: #1a1a1a;
+}
+
+.box3  {
+  background-color: #8BEAD8;
+}
+
+
+.box4  {
+  background-color: #fded02;
+}
+
+.box5 {
+  background-color: #3A7989;
+}
+
+.box6  {
+  background-color: #171719;
+}
+
+.box7  {
+  background-color: #e40520;
+}
+
+.box8 {
+  background-color: #f1f1f1;
+}
+
+.box9 {
+  background-color: #333;
+}
+
+.box10 {
+  background-color: #1F7FDD;
+}
+
+.box11  {
+  background-color: #e0e0e0;
+}
+
+.box12 {
+  background-color: #282525;
+}
+
+.box13  {
+  background-color: #AD1E3C;
+}
+
+.box14 {
+  background-color: #ffcb04;
+}
+
+.box15  {
+  background-color: #b2b2b2;
+}
+
+.box16 {
+  background-color: #3f7a2c;
+}
+
+//footer
+
+#footer  {
+background-color: black;
+height: 55px;
+display: flex;
+align-items: center;
+}
+
+p {
+  padding-left: 20px;
+  color: gray;
+  font-size: 15px;
+}
+
+#foota  {
+  padding: 0;
+  color: gray;
+  text-decoration: underline;
+}

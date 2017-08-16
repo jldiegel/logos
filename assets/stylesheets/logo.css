@@ -1,0 +1,200 @@
+#mainhead {
+  background-color: white;
+  font-family: 'Baloo Da', cursive;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px; }
+
+body {
+  width: 100%;
+  margin: 0; }
+
+h2 {
+  padding-left: 18px; }
+
+.links {
+  padding-right: 15px;
+  padding-top: 6px; }
+
+a {
+  padding-left: 12px;
+  text-decoration: none; }
+
+.coke {
+  width: 300px;
+  height: 300px;
+  background: url("../images/coke.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.chanel {
+  width: 300px;
+  height: 300px;
+  background: url("../images/chanel.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.nike {
+  width: 300px;
+  height: 300px;
+  background: url("../images/nike.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.mtv {
+  width: 300px;
+  height: 300px;
+  background: url("../images/mtv.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.newbalance {
+  width: 300px;
+  height: 300px;
+  background: url("../images/newbalance.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.astonmartin {
+  width: 300px;
+  height: 300px;
+  background: url("../images/astonmartin.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.heinz {
+  width: 300px;
+  height: 300px;
+  background: url("../images/heinz.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.lacoste {
+  width: 300px;
+  height: 300px;
+  background: url("../images/lacoste.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.bo {
+  width: 300px;
+  height: 300px;
+  background: url("../images/bo.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.disney {
+  width: 300px;
+  height: 300px;
+  background: url("../images/disney.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.levis {
+  width: 300px;
+  height: 300px;
+  background: url("../images/levis.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.guinness {
+  width: 300px;
+  height: 300px;
+  background: url("../images/guinness.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.swiss {
+  width: 300px;
+  height: 300px;
+  background: url("../images/swiss.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.kodak {
+  width: 300px;
+  height: 300px;
+  background: url("../images/kodak.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.wb {
+  width: 300px;
+  height: 300px;
+  background: url("../images/wb.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.heineken {
+  width: 300px;
+  height: 300px;
+  background: url("../images/heineken.svg");
+  background-position: center top;
+  margin: 0 auto; }
+
+.box1 {
+  background-color: #F24E3C; }
+
+.box2 {
+  background-color: #1a1a1a; }
+
+.box3 {
+  background-color: #8BEAD8; }
+
+.box4 {
+  background-color: #fded02; }
+
+.box5 {
+  background-color: #3A7989; }
+
+.box6 {
+  background-color: #171719; }
+
+.box7 {
+  background-color: #e40520; }
+
+.box8 {
+  background-color: #f1f1f1; }
+
+.box9 {
+  background-color: #333; }
+
+.box10 {
+  background-color: #1F7FDD; }
+
+.box11 {
+  background-color: #e0e0e0; }
+
+.box12 {
+  background-color: #282525; }
+
+.box13 {
+  background-color: #AD1E3C; }
+
+.box14 {
+  background-color: #ffcb04; }
+
+.box15 {
+  background-color: #b2b2b2; }
+
+.box16 {
+  background-color: #3f7a2c; }
+
+#footer {
+  background-color: black;
+  height: 55px;
+  display: flex;
+  align-items: center; }
+
+p {
+  padding-left: 20px;
+  color: gray;
+  font-size: 15px; }
+
+#foota {
+  padding: 0;
+  color: gray;
+  text-decoration: underline; }
+
+/*# sourceMappingURL=logo.css.map */
